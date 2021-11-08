@@ -1,0 +1,27 @@
+{
+  "name": "eventbooking-graphql-app",
+  "version": "1.0.0",
+  "description": "My first implementation of a GraphQL server building an event Booking system using Nodejs, GraphQL, and React on the Front End",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BabalolaBrainiac/EventBooking-GraphQL-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BabalolaBrainiac/EventBooking-GraphQL-App/issues"
+  },
+  "homepage": "https://github.com/BabalolaBrainiac/EventBooking-GraphQL-App#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.7.2",
+    "nodemon": "^2.0.14"
+  }
+}
